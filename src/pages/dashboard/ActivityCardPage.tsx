@@ -99,7 +99,7 @@ public render(){
       <Card.Description>
         병원 암센터 진료 연구 포탈
         CDW 구축의 일환으로 발생한 작업범위
-        진료챠트를 세세한 부분을 그려야 되는 저수준 그래픽 라이브러리를 사용하여 개발함.
+        진료챠트 데이타테이블 통계등등.
       </Card.Description>
     </Card.Content>
     <Card.Content extra>
@@ -119,14 +119,14 @@ public render(){
     <Card style={{width:this.props.width, height:this.props.height}}>
          <Image src={require('../../rootImages/assets/logos/chris.jpg') } style={{width:'360px', height:'360px'}} wrapped ui={false} />
          <Card.Content>
-           <Card.Header>문화다부처연계플랫폼</Card.Header>
+           <Card.Header>문화다부처표준메타연계플랫폼</Card.Header>
            <Card.Meta>
              <span className='date'></span>
            </Card.Meta>
            <Card.Description>
            각 기관에서 데이타를 무작위로 수집하여 로 데이타를 적재
-           이를 클래서파이하여 디비에 적재
-           적재된 데이타에 대한 스크래치율 분석 작업 프로젝트
+           이를 정제하여 디비에 적재
+           적재된 데이타에 대한 수집률 분석 프로젝트
            </Card.Description>
          </Card.Content>
          <Card.Content extra>
