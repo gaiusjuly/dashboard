@@ -19,7 +19,7 @@ const LandingPage = () => {
             alt='logo'
             style={{ marginBottom: 12 }}
           />
-          오세영 HOMEPAGE
+          Oh's HOMEPAGE
         </Header>
           <Fragment>
           <Header as='h2' inverted content={`안녕하세요!반갑습니다`} />
