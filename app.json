@@ -1,0 +1,15 @@
+{
+    "name": "reactcorea",
+    "description": "reactcorea",
+    "repository": "",
+    "logo": "",
+    "keywords": ["react", "redux"],
+    "buildpacks": [
+        {
+          "url": "https://github.com/heroku/heroku-buildpack-nodejs#v134"
+        }
+    ],
+    "env": {
+
+    }
+}

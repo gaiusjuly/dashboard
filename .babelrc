@@ -1,0 +1,23 @@
+{
+    "presets": ["@babel/preset-env"],
+    "env": {
+        "development": {
+            "presets": ["@babel/preset-env"]
+        },
+        "production": {
+            "presets": []
+        },
+        "test": {
+            "presets": [],
+            "compact": false,
+            "plugins": [
+                [
+                    "rewire",
+                    {
+                        "exclude": ["**/*.spec.js"]
+                    }
+                ],
+            ]
+        }
+    }
+}

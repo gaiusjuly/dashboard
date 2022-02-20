@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <link rel="icon" href="/images/favicon.ico"/>
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>React Korea</title>
+    <script>
+        
+        window.devContext = true;
+            // @ts-ignore: ENV_* are defined in webpack.config.js
+           // genomeNexusApiUrl : ENV_GENOME_NEXUS_URL,
+        window.frontendConfig = {
+            //configurationServiceUrl:"http://localhost:8080/config_service.jsp",
+            //frontendUrl:'//'+window.location.host + '/',
+            //apiRoot: 'http://www.cbioportal.org/rc',
+            //sessionServiceUrl:'http://www.cbioportal.org/rc/api-legacy/proxy/session/',
+            // custom_tabs:[
+            //     {
+            //         "title": "Custom Tab",
+            //         "location": "RESULTS_PAGE",
+            //         "mountCallbackName": "renderCustomTab1",
+            //         "pathsToJs":["http:127.0.0.1:8081/customTab1.js"],
+            //         "showWithMultipleStudies": true,
+            //         "customParameters": { example:1 },
+            //         "unmountOnHide":false
+            //     }
+            // ],
+            serverConfig:{}
+
+        };
+
+    </script>
+    <script src="/reactapp/common.bundle.js"></script>
+
+    <link href="/reactapp/prefixed-bootstrap.min.css" rel="stylesheet"></link>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+</head>
+<body>
+
+<div id="reactRoot"></div>
+
+</body>
+</html>
